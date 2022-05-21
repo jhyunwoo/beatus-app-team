@@ -1,4 +1,5 @@
 const box = document.getElementById("box")
+box.style.backgroundColor = "blue"
 function changeColor(){
     const boxColor = box.style.backgroundColor
     if(boxColor === "blue"){
