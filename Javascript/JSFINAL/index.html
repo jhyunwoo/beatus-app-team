@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자바스크립트 최종 과제</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <form id="todo-form">
-        <input type="text" placeholder="할 일을 입력한 후 엔터를 눌러주세요" required />
-      </form>
-      <ul id="todo-list"></ul>
-      <div id="quote">
-        <span></span>
-        <span></span>
-      </div>
-    <script src="app.js"></script>
+    <h1 class="text-indigo-500 text-4xl text-center m-4 p-4">Beatus To Do List</h1>
+    <form id="todo-form" class="flex justify-center">
+        <input type="text" placeholder="할 일을 입력한 후 엔터를 눌러주세요" required class="bg-slate-200 m-4 p-4 rounded-2xl w-96 text-slate-900"/>
+    </form>
+    <div class="bg-indigo-100 m-4 p-4 rounded-2xl">
+        <ul id="todo-list"></ul>
+        <script src="app.js"></script>
+    </div>
+    
 </body>
 </html>
