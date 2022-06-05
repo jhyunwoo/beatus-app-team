@@ -3,17 +3,17 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
-    <View>
-      <View>
-        <View></View>
-        <View>
-          <View></View>
-          <View></View>
-          <View></View>
+    <View style={{ flex: 1 }}>
+      <View style={{ flex: 2, backgroundColor: "teal" }}>
+        <View style={{ flex: 1 }}></View>
+        <View style={{ flex: 1, flexDirection: "row" }}>
+          <View style={{ flex: 1, backgroundColor: "blue" }}></View>
+          <View style={{ flex: 1, backgroundColor: "white" }}></View>
+          <View style={{ flex: 1, backgroundColor: "red" }}></View>
         </View>
       </View>
-      <View></View>
-      <View></View>
+      <View style={{ flex: 2, backgroundColor: "tomato" }}></View>
+      <View style={{ flex: 1, backgroundColor: "orange" }}></View>
     </View>
   );
 }
